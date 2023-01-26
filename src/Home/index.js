@@ -30,6 +30,7 @@ export function Home() {
     } else if (filter === 'country') {
       return a.country.localeCompare(b.country);
     }
+    return true;
   });
 
 
