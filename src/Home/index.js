@@ -64,7 +64,7 @@ export function Home() {
        {filteredMovies.map(movie => {
           return (
             <Movie key={movie.id}>
-              <a href="https://www.google.com.br/">
+              <a href="https://www.google.com.br/" target="blank">
                 <img src={movie.poster} alt={movie.title}/>
               </a>
               <span>{movie.title}</span>
